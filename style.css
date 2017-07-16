@@ -11,6 +11,12 @@ a {
 	text-decoration: none;
 }
 
+a:active, a:hover {
+	color: #e8b1f9;
+	border-bottom: none;
+	text-decoration: none;
+}
+
 .container {
 	width: 700px;
 	margin-left: auto;
