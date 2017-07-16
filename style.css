@@ -5,7 +5,8 @@ body, div, span, p {
 }
 
 a {
-	color: #0000ff;
+	color: #e8b1f9;
+	border-bottom: 4px solid #e8b1f9;
 	text-decoration: none;
 }
 
@@ -36,4 +37,10 @@ a {
 	width: 100%;
 	border-top: 1px solid #222222;
 	text-align: center;
+}
+
+.text-section {
+	width: 100%;
+	border-top: 1px solid #222222;
+	text-align: left;
 }
