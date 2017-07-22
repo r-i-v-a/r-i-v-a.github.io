@@ -6,13 +6,13 @@ body, div, span, p {
 }
 
 a {
-	color: #e8b1f9;
-	border-bottom: 4px solid #e8b1f9;
+	color: #0000ff;
+	border-bottom: 4px solid #0000ff;
 	text-decoration: none;
 }
 
 a:active, a:hover {
-	color: #e8b1f9;
+	color: #0000ff;
 	border-bottom: none;
 	text-decoration: none;
 }
@@ -24,7 +24,7 @@ a:active, a:hover {
 }
 
 .image {
-	background-image: url("http://68.media.tumblr.com/05c5e58a067382b9a2da2b62d770e293/tumblr_nkwz3cHGEx1upvdx7o1_1280.jpg");
+	background-image: url("https://i.imgur.com/Wf2Bf8h.jpg");
 	background-size: cover;
 	background-position: center;
 	width: 500px;
@@ -44,10 +44,4 @@ a:active, a:hover {
 	width: 100%;
 	border-top: 1px solid #222222;
 	text-align: center;
-}
-
-.text-section {
-	width: 100%;
-	border-top: 1px solid #222222;
-	text-align: left;
 }
