@@ -6,13 +6,13 @@ body, div, span, p {
 }
 
 a {
-	color: #0000ff;
-	border-bottom: 4px solid #0000ff;
+	color: #2b9cff;
+	border-bottom: 4px solid #2b9cff;
 	text-decoration: none;
 }
 
 a:active, a:hover {
-	color: #0000ff;
+	color: #2b9cff;
 	border-bottom: none;
 	text-decoration: none;
 }
