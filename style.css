@@ -1,18 +1,24 @@
+:root {
+	--background-color: #ffffff;
+	--font-color: #222222;
+	--link-color: #f18cff;
+}
+
 body, div, span, p {
 	font-family: "Courier New", monospace;
-	color: #222222;
-	background-color: #ffffff;
+	color: var(--font-color);
+	background-color: var(--background-color);
 	line-height: 1.5;
 }
 
 a {
-	color: #ce6418;
-	border-bottom: 4px solid #ce6418;
+	color: var(--link-color);
+	border-bottom: 4px solid var(--link-color);
 	text-decoration: none;
 }
 
 a:active, a:hover {
-	color: #ce6418;
+	color: var(--link-color);
 	border-bottom: none;
 	text-decoration: none;
 }
@@ -24,7 +30,7 @@ a:active, a:hover {
 }
 
 .image {
-	background-image: url("https://i.imgur.com/4zM1H3K.jpg");
+	background-image: url("https://i.imgur.com/ooLFLuv.jpg");
 	background-size: cover;
 	background-position: center;
 	width: 500px;
@@ -42,6 +48,6 @@ a:active, a:hover {
 
 .section {
 	width: 100%;
-	border-top: 1px solid #222222;
+	border-top: 1px solid var(--font-color);
 	text-align: center;
 }
