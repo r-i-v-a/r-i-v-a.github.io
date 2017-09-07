@@ -1,6 +1,7 @@
 :root {
-	--background-color: #eeeeee;
+	--background-color: #ffffff;
 	--font-color: #111111;
+	--accent-color: #bfeafc;
 }
 
 body, div, span, p {
@@ -12,7 +13,7 @@ body, div, span, p {
 
 a {
 	color: var(--font-color);
-	border-bottom: 1px solid var(--font-color);
+	border-bottom: 6px solid var(--accent-color);
 	text-decoration: none;
 }
 
