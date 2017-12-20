@@ -1,7 +1,7 @@
 :root {
 	--background-color: #ffffff;
 	--font-color: #111111;
-	--accent-color: #b7ffec;
+	--accent-color: #dde6ff;
 }
 
 body, div, span, p {
@@ -30,7 +30,7 @@ a:active, a:hover {
 }
 
 .image {
-	background-image: url("http://i64.tinypic.com/fjqqom.jpg");
+	background-image: url("http://i63.tinypic.com/x6anmf.jpg");
 	background-size: cover;
 	background-position: center;
 	width: 500px;
