@@ -1,41 +1,42 @@
 :root {
-	--background-color: #ffffff;
+	--background-color: #f7f7f7;
 	--font-color: #111111;
-	--accent-color: #dde6ff;
+	--accent-color: #0e6d39;
 }
 
 body, div, span, p {
-	font-family: "Courier New", monospace;
+	font-family: "Caslon", serif;
+	letter-spacing: 0.17em;
+	line-height: 1.7;
 	color: var(--font-color);
 	background-color: var(--background-color);
-	line-height: 1.7;
 }
 
 a {
-	color: var(--font-color);
-	border-bottom: 6px solid var(--accent-color);
+	color: var(--accent-color);
+	border-bottom: 5px solid var(--accent-color);
 	text-decoration: none;
 }
 
 a:active, a:hover {
-	color: var(--font-color);
+	color: var(--accent-color);
 	border-bottom: none;
 	text-decoration: none;
 }
 
 .container {
-	width: 700px;
+	width: 750px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .image {
-	background-image: url("http://i63.tinypic.com/x6anmf.jpg");
+	background-image: url("http://i64.tinypic.com/fjqqom.jpg");
 	background-size: cover;
 	background-position: center;
-	width: 500px;
-	height: 500px;
-	border-radius: 250px;
+	width: 600px;
+	height: 600px;
+	border-radius: 300px;
 	margin-top: 110px;
 	margin-bottom: 110px;
 	margin-left: auto;
