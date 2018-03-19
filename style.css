@@ -1,7 +1,7 @@
 :root {
 	--background-color: #f7f7f7;
 	--font-color: #111111;
-	--accent-color: #0e6d39;
+	--accent-color: #4692fc;
 }
 
 body, div, span, p {
@@ -14,13 +14,13 @@ body, div, span, p {
 
 a {
 	color: var(--accent-color);
-	border-bottom: 5px solid var(--accent-color);
+	border-bottom: none;
 	text-decoration: none;
 }
 
 a:active, a:hover {
 	color: var(--accent-color);
-	border-bottom: none;
+	border-bottom: 5px solid var(--accent-color);
 	text-decoration: none;
 }
 
