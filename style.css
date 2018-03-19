@@ -5,8 +5,8 @@
 }
 
 body, div, span, p {
-	font-family: "Caslon", serif;
-	letter-spacing: 0.17em;
+	font-family: "Helvetica", sans-serif;
+	letter-spacing: 0.1em;
 	line-height: 1.7;
 	color: var(--font-color);
 	background-color: var(--background-color);
@@ -31,7 +31,7 @@ a:active, a:hover {
 }
 
 .image {
-	background-image: url("http://i64.tinypic.com/fjqqom.jpg");
+	background-image: url("images/cover.jpg");
 	background-size: cover;
 	background-position: center;
 	width: 600px;
