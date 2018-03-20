@@ -5,7 +5,8 @@
 }
 
 body, div, span, p {
-	font-family: "Helvetica", sans-serif;
+	font-family: "Caslon", serif;
+	font-size: 1.04em;
 	letter-spacing: 0.1em;
 	line-height: 1.7;
 	color: var(--font-color);
@@ -47,14 +48,14 @@ a:active, a:hover {
 	width: 100%;
 }
 
-.section-center {
+.section {
 	width: 100%;
 	border-top: 1px solid var(--font-color);
 	text-align: center;
 }
 
-.section-left {
+.section-text {
 	width: 100%;
 	border-top: 1px solid var(--font-color);
-	text-align: left;
+	text-align: justify;
 }
