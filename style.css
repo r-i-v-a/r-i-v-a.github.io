@@ -1,7 +1,7 @@
 :root {
-	--background-color: #f7f7f7;
+	--background-color: #f9f9f9;
 	--font-color: #111111;
-	--accent-color: #4692fc;
+	--accent-color: #2222ff;
 }
 
 body, div, span, p {
@@ -43,12 +43,18 @@ a:active, a:hover {
 	margin-right: auto;
 }
 
-.image-section {
+.section-image {
 	width: 100%;
 }
 
-.section {
+.section-center {
 	width: 100%;
 	border-top: 1px solid var(--font-color);
 	text-align: center;
+}
+
+.section-left {
+	width: 100%;
+	border-top: 1px solid var(--font-color);
+	text-align: left;
 }
