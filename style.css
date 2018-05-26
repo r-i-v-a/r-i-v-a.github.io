@@ -1,13 +1,13 @@
 :root {
-	--background-color: #f9f9f9;
-	--font-color: #111111;
-	--accent-color: #9bdfff;
+	--background-color: #fafafa;
+	--font-color: #605675;
+	--accent-color: #fff772;
 }
 
 body, div, span, p {
-	font-family: "Caslon", serif;
-	font-size: 1.04em;
-	letter-spacing: 0.1em;
+	font-family: "Helvetica", sans-serif;
+	font-size: 1.03em;
+	letter-spacing: 0.04em;
 	line-height: 1.7;
 	color: var(--font-color);
 	background-color: var(--background-color);
