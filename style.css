@@ -1,7 +1,7 @@
 :root {
-	--background-color: #fafafa;
-	--font-color: #0036ff;
-	--accent-color: #ffe1d6;
+	--background-color: #e7e7e7;
+	--font-color: #076bf7;
+	--link-color: #ffffff;
 }
 
 body, div, span, p {
@@ -15,7 +15,7 @@ body, div, span, p {
 
 a {
 	color: var(--font-color);
-	border-bottom: 7px solid var(--accent-color);
+	border-bottom: 7px solid var(--link-color);
 	text-decoration: none;
 }
 
@@ -25,27 +25,43 @@ a:active, a:hover {
 	text-decoration: none;
 }
 
+a.nav {
+	color: var(--font-color);
+	border-bottom: none;
+	text-decoration: none;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
 .container {
-	width: 750px;
+	width: 65%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .image {
-	background-image: url("images/cover.jpg");
+	background-image: url("images/042.jpg");
 	background-size: cover;
 	background-position: center;
 	width: 600px;
 	height: 600px;
 	border-radius: 300px;
-	margin-top: 110px;
+	margin-top: 130px;
 	margin-bottom: 110px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.section-image {
+.navbar {
 	width: 100%;
+	border-bottom: 1px solid var(--font-color);
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	position: fixed;
 }
 
 .section {
@@ -58,4 +74,9 @@ a:active, a:hover {
 	width: 100%;
 	border-top: 1px solid var(--font-color);
 	text-align: justify;
+}
+
+.section-image {
+	width: 100%;
+	text-align: center;
 }
