@@ -1,6 +1,6 @@
 :root {
 	--background-color: #e7e7e7;
-	--font-color: #076bf7;
+	--font-color: #0258f9;
 	--link-color: #ffffff;
 }
 
@@ -26,7 +26,7 @@ a:active, a:hover {
 }
 
 a.nav {
-	color: var(--font-color);
+	color: var(--background-color);
 	border-bottom: none;
 	text-decoration: none;
 	margin-left: 70px;
@@ -54,7 +54,7 @@ a.nav {
 
 .navbar {
 	width: 100%;
-	border-bottom: 1px solid var(--font-color);
+	background-color: var(--font-color);
 	text-align: center;
 	padding-top: 15px;
 	padding-bottom: 15px;
