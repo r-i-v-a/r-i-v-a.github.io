@@ -1,6 +1,6 @@
 :root {
-	--background-color: #e7e7e7;
-	--font-color: #0022ff;
+	--background-color: #e6e6e6;
+	--font-color: #271c3d;
 	--link-color: #ffffff;
 }
 
@@ -30,18 +30,16 @@ a:active, a:hover {
 	text-decoration: none;
 }
 
-a.nav {
-	color: var(--background-color);
-	border-bottom: none;
-	text-decoration: none;
-	margin-left: 60px;
-	margin-right: 60px;
-}
-
 .container {
 	width: 100%;
 	margin: 0;
 	padding: 0;
+}
+
+a.nav {
+	color: var(--background-color);
+	border-bottom: none;
+	text-decoration: none;
 }
 
 .navbar {
@@ -56,8 +54,7 @@ a.nav {
 	position: fixed;
 }
 
-.image-index {
-	background-image: url("files/043.jpg");
+.image {
 	background-size: cover;
 	background-position: center;
 	width: 100%;
@@ -66,14 +63,20 @@ a.nav {
 	margin-bottom: 50px;
 }
 
-.image-blog {
-	background-image: url("files/043.jpg");
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-	height: 800px;
-	margin-top: 50px;
-	margin-bottom: 50px;
+#image-a {
+	background-image: url("files/a.jpg");
+}
+
+#image-b {
+	background-image: url("files/b.jpg");
+}
+
+#image-c {
+	background-image: url("files/c.jpg");
+}
+
+#image-d {
+	background-image: url("files/d.jpg");
 }
 
 .section {
