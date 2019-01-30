@@ -1,6 +1,6 @@
 :root {
 	--background-color: #e6e6e6;
-	--font-color: #271c3d;
+	--font-color: #2b2447;
 	--link-color: #ffffff;
 }
 
@@ -12,7 +12,7 @@ body {
 body, div, span, p {
 	background-color: var(--background-color);
 	color: var(--font-color);
-	font-family: "Helvetica", sans-serif;
+	font-family: "Helvetica", serif;
 	font-size: 1.03em;
 	letter-spacing: 0.05em;
 	line-height: 1.7;
