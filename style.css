@@ -12,9 +12,9 @@ body {
 body, div, span, p {
 	background-color: var(--background-color);
 	color: var(--font-color);
-	font-family: "Caslon", serif;
-	font-size: 1.09em;
-	letter-spacing: 0.05em;
+	font-family: "Courier New", monospace;
+	font-size: 1.06em;
+	letter-spacing: 0.02em;
 	line-height: 1.6;
 }
 
@@ -39,9 +39,9 @@ a:active, a:hover {
 a.nav {
 	border-bottom: none;
 	color: var(--background-color);
-	font-family: "Caslon", serif;
-	font-size: 1.09em;
-	letter-spacing: 0.05em;
+	font-family: "SF Mono", "Andale Mono", monospace;
+	font-size: 1em;
+	letter-spacing: 0.06em;
 	text-decoration: none;
 }
 
