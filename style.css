@@ -1,7 +1,7 @@
 :root {
 	--background-color: #f9f9f9;
-	--font-color: #111111;
-	--link-color: #a74f24;
+	--font-color: #a74f24;
+	--link-color: #111111;
 }
 
 body {
@@ -15,23 +15,23 @@ body, div, span, p {
 	font-family: "Caslon", serif;
 	font-size: 1.07em;
 	letter-spacing: 0.07em;
-	line-height: 1.6;
+	line-height: 1.5;
 }
 
 a {
-	color: var(--link-color);
-	border-bottom: 5px solid var(--link-color);
-	text-decoration: none;
-}
-
-a:active, a:hover {
 	color: var(--link-color);
 	border-bottom: none;
 	text-decoration: none;
 }
 
+a:active, a:hover {
+	color: var(--link-color);
+	border-bottom: 3px solid var(--link-color);
+	text-decoration: none;
+}
+
 .container {
-	width: 750px;
+	width: 770px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -40,8 +40,8 @@ a:active, a:hover {
 	background-image: url("files/image.jpg");
 	background-size: cover;
 	background-position: center;
-	width: 600px;
-	height: 600px;
+	width: 550px;
+	height: 550px;
 	border-radius: 300px;
 	margin-top: 110px;
 	margin-bottom: 110px;
