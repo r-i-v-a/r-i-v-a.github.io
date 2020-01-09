@@ -1,7 +1,7 @@
 :root {
-	--background-color: #e9e9e9;
-	--font-color: #1111ff;
-	--link-color: #ffffff;
+	--background-color: #f9f9f9;
+	--font-color: #111111;
+	--link-color: #a74f24;
 }
 
 body {
@@ -19,80 +19,42 @@ body, div, span, p {
 }
 
 a {
-	border-bottom: 7px solid var(--link-color);
-	color: var(--font-color);
+	color: var(--link-color);
+	border-bottom: 5px solid var(--link-color);
 	text-decoration: none;
 }
 
 a:active, a:hover {
+	color: var(--link-color);
 	border-bottom: none;
-	color: var(--font-color);
 	text-decoration: none;
 }
 
 .container {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-}
-
-a.nav {
-	border-bottom: none;
-	color: var(--background-color);
-	font-family: "Caslon", serif;
-	font-size: 1.07em;
-	letter-spacing: 0.07em;
-	text-decoration: none;
-}
-
-.navbar {
-	background-color: var(--font-color);
-	margin: 0px;
-	padding-bottom: 11px;
-	padding-top: 11px;
-	position: fixed;
-	text-align: center;
-	width: 100%;
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .image {
-	background-position: center;
+	background-image: url("files/image.jpg");
 	background-size: cover;
-	height: 800px;
-	margin-bottom: 60px;
+	background-position: center;
+	width: 600px;
+	height: 600px;
+	border-radius: 300px;
+	margin-top: 110px;
+	margin-bottom: 110px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.section-image {
 	width: 100%;
 }
 
-#image-a {
-	background-image: url("files/a.jpg");
-}
-
-#image-b {
-	background-image: url("files/b.jpg");
-}
-
-#image-c {
-	background-image: url("files/c.jpg");
-}
-
-#image-d {
-	background-image: url("files/d.jpg");
-}
-
 .section {
+	width: 100%;
 	border-top: 1px solid var(--font-color);
-	margin-left: auto;
-	margin-right: auto;
 	text-align: center;
-	width: 65%;
-}
-
-.section-last {
-	border-bottom: 1px solid var(--font-color);
-	border-top: 1px solid var(--font-color);
-	margin-bottom: 60px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	width: 65%;
 }
