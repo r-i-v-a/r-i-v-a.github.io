@@ -15,7 +15,7 @@ body, div, span, p {
 	font-family: "Caslon", serif;
 	font-size: 1.07em;
 	letter-spacing: 0.07em;
-	line-height: 1.5;
+	line-height: 1.6;
 }
 
 a {
@@ -26,7 +26,7 @@ a {
 
 a:active, a:hover {
 	color: var(--link-color);
-	border-bottom: 3px solid var(--link-color);
+	border-bottom: 4px solid var(--link-color);
 	text-decoration: none;
 }
 
