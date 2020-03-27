@@ -31,7 +31,8 @@ a:active, a:hover {
 }
 
 .container {
-	width: 770px;
+	width: 900px;
+	max-width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -40,8 +41,9 @@ a:active, a:hover {
 	background-image: url("files/image.jpg");
 	background-size: cover;
 	background-position: center;
-	width: 550px;
-	height: 550px;
+	width: 600px;
+	height: 600px;
+	max-width: 75%;
 	border-radius: 300px;
 	margin-top: 110px;
 	margin-bottom: 110px;
