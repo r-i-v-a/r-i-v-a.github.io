@@ -12,7 +12,7 @@ body {
 body, div, span, p {
 	background-color: var(--background-color);
 	color: var(--font-color);
-	font-family: "Caslon", serif;
+	font-family: "Times New Roman", serif;
 	font-size: 1.07em;
 	letter-spacing: 0.07em;
 	line-height: 1.6;
@@ -37,7 +37,7 @@ a:active, a:hover {
 	margin-right: auto;
 }
 
-.image {
+.img {
 	background-image: url("files/image.jpg");
 	background-size: cover;
 	background-position: center;
@@ -51,12 +51,18 @@ a:active, a:hover {
 	margin-right: auto;
 }
 
-.section-image {
+.img-container {
 	width: 100%;
 }
 
-.section {
+.txt-center {
 	width: 100%;
 	border-top: 1px solid var(--font-color);
 	text-align: center;
+}
+
+.txt-left {
+	width: 100%;
+	border-top: 1px solid var(--font-color);
+	text-align: left;
 }
