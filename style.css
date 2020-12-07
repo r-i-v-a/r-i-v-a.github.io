@@ -1,7 +1,7 @@
 :root {
 	--background-color: #f9f9f9;
-	--font-color: #a74f24;
-	--link-color: #111111;
+	--font-color: #111111;
+	--link-color: #f7e999;
 }
 
 body {
@@ -14,35 +14,35 @@ body, div, span, p {
 	color: var(--font-color);
 	font-family: "Times New Roman", serif;
 	font-size: 1.07em;
-	letter-spacing: 0.07em;
-	line-height: 1.6;
+	letter-spacing: 0.05em;
+	line-height: 1.7;
 }
 
 a {
-	color: var(--link-color);
-	border-bottom: none;
+	color: var(--font-color);
+	border-bottom: 7px solid var(--link-color);
 	text-decoration: none;
 }
 
 a:active, a:hover {
-	color: var(--link-color);
-	border-bottom: 4px solid var(--link-color);
+	color: var(--font-color);
+	border-bottom: none;
 	text-decoration: none;
 }
 
 .container {
-	width: 900px;
+	width: 1000px;
 	max-width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .img {
-	background-image: url("files/image.jpg");
+	background-image: url("files/1.jpg");
 	background-size: cover;
 	background-position: center;
-	width: 600px;
-	height: 600px;
+	width: 500px;
+	height: 500px;
 	max-width: 75%;
 	border-radius: 300px;
 	margin-top: 110px;
