@@ -2,6 +2,7 @@
 	--background-color: #cccccc;
 	--font-color: #111111;
 	--link-color: #ffffff;
+	--accent-color:  #ffffff;
 }
 
 body {
@@ -37,32 +38,49 @@ a:active, a:hover {
 	margin-right: auto;
 }
 
-.img {
-	background-image: url("files/1.jpg");
+.object-container {
+	width: 100%;
+}
+
+.object1 {
+	# background-image: url("files/1.jpg");
+	background-color: var(--accent-color);
 	background-size: cover;
 	background-position: center;
-	width: 500px;
-	height: 500px;
+	width: 450px;
+	height: 450px;
 	max-width: 75%;
-	border-radius: 300px;
+	border-radius: 225px;
 	margin-top: 110px;
 	margin-bottom: 110px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.img-container {
-	width: 100%;
+.object2 {
+	# background-image: url("files/1.jpg");
+	background-color: var(--accent-color);
+	background-size: cover;
+	background-position: center;
+	width: 450px;
+	height: 450px;
+	max-width: 75%;
+	border-radius: 225px;
+	margin-top: 110px;
+	margin-bottom: 110px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.txt-center {
+.section {
 	width: 100%;
 	border-top: 1px solid var(--font-color);
 	text-align: center;
 }
 
-.txt-left {
+.section-last {
 	width: 100%;
 	border-top: 1px solid var(--font-color);
-	text-align: left;
+	border-bottom: 1px solid var(--font-color);
+	text-align: center;
 }
