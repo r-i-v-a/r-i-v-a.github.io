@@ -2,7 +2,7 @@
 	--background-color: #cccccc;
 	--font-color: #111111;
 	--link-color: #ffffff;
-	--accent-color:  #ffffff;
+	--object2-color:  #963616;
 }
 
 body {
@@ -43,8 +43,7 @@ a:active, a:hover {
 }
 
 .object1 {
-	# background-image: url("files/1.jpg");
-	background-color: var(--accent-color);
+	background: radial-gradient(circle, rgba(255,226,241,1) 0%, rgba(129,187,255,1) 100%);
 	background-size: cover;
 	background-position: center;
 	width: 450px;
@@ -58,8 +57,7 @@ a:active, a:hover {
 }
 
 .object2 {
-	# background-image: url("files/1.jpg");
-	background-color: var(--accent-color);
+	background-color: var(--object2-color);
 	background-size: cover;
 	background-position: center;
 	width: 450px;
