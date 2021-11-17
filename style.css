@@ -42,7 +42,8 @@ a:active, a:hover {
 }
 
 .object1 {
-	background: radial-gradient(circle, rgba(255,226,241,1) 0%, rgba(129,187,255,1) 100%);
+	# background-image: url("files/1.jpg");
+	background: radial-gradient(circle, rgba(191,49,0,1) 0%, rgba(166,226,255,1) 100%);
 	background-size: cover;
 	background-position: center;
 	width: 450px;
