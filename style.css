@@ -1,8 +1,7 @@
 :root {
-	--background-color: #cccccc;
-	--font-color: #111111;
-	--link-color: #ffffff;
-	--object2-color:  #963616;
+	--background-color: #f9f9f9;
+	--font-color: #aaaaaa;
+	--link-color: #111111;
 }
 
 body {
@@ -20,13 +19,13 @@ body, div, span, p {
 }
 
 a {
-	color: var(--font-color);
+	color: var(--link-color);
 	border-bottom: 7px solid var(--link-color);
 	text-decoration: none;
 }
 
 a:active, a:hover {
-	color: var(--font-color);
+	color: var(--link-color);
 	border-bottom: none;
 	text-decoration: none;
 }
@@ -56,29 +55,8 @@ a:active, a:hover {
 	margin-right: auto;
 }
 
-.object2 {
-	background-color: var(--object2-color);
-	background-size: cover;
-	background-position: center;
-	width: 450px;
-	height: 450px;
-	max-width: 75%;
-	border-radius: 225px;
-	margin-top: 110px;
-	margin-bottom: 110px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.section {
+.txt-section {
 	width: 100%;
 	border-top: 1px solid var(--font-color);
-	text-align: center;
-}
-
-.section-last {
-	width: 100%;
-	border-top: 1px solid var(--font-color);
-	border-bottom: 1px solid var(--font-color);
 	text-align: center;
 }
