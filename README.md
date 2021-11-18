@@ -1,2 +1,3 @@
-# r-i-v-a.github.io
-personal site
+# Riva Huynh Nathans
+
+https://r-i-v-a.github.io/
