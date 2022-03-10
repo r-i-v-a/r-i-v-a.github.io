@@ -56,8 +56,22 @@ a:active, a:hover {
 	margin-right: auto;
 }
 
-.txt-section {
+.txt-header {
 	width: 100%;
 	border-top: 1px solid var(--font-color);
-	text-align: center;
+	text-align: right;
 }
+
+.txt-footer {
+	width: 100%;
+	border-top: 1px solid var(--font-color);
+	border-bottom: 1px solid var(--font-color);
+	text-align: right;
+}
+
+.txt-body {
+	width: 100%;
+	border-top: 1px solid var(--font-color);
+	text-align: left;
+}
+
