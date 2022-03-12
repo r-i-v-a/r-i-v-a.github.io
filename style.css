@@ -72,6 +72,7 @@ a:active, a:hover {
 	width: 100%;
 	border-top: 1px solid var(--font-color);
 	border-bottom: 1px solid var(--font-color);
+	margin-bottom: 125px;
 	text-align: right;
 }
 
