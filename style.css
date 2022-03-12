@@ -46,12 +46,12 @@ a:active, a:hover {
 	background: radial-gradient(circle, rgba(191,49,0,1) 0%, rgba(166,226,255,1) 100%);
 	background-size: cover;
 	background-position: center;
-	width: 480px;
-	height: 480px;
-	max-width: 75%;
+	width: 500px;
+	height: 500px;
+	max-width: 70%;
 	border-radius: 50%;
-	margin-top: 110px;
-	margin-bottom: 110px;
+	margin-top: 125px;
+	margin-bottom: 125px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -62,16 +62,16 @@ a:active, a:hover {
 	text-align: right;
 }
 
+.txt-body {
+	width: 100%;
+	border-top: 1px solid var(--font-color);
+	text-align: left;
+}
+
 .txt-footer {
 	width: 100%;
 	border-top: 1px solid var(--font-color);
 	border-bottom: 1px solid var(--font-color);
 	text-align: right;
-}
-
-.txt-body {
-	width: 100%;
-	border-top: 1px solid var(--font-color);
-	text-align: left;
 }
 
