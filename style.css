@@ -56,23 +56,16 @@ a:active, a:hover {
 	margin-right: auto;
 }
 
-.txt-header {
+.txt {
 	width: 100%;
 	border-top: 1px solid var(--font-color);
-	text-align: right;
+	text-align: center;
 }
 
-.txt-body {
-	width: 100%;
-	border-top: 1px solid var(--font-color);
-	text-align: left;
-}
-
-.txt-footer {
+.txt-last {
 	width: 100%;
 	border-top: 1px solid var(--font-color);
 	border-bottom: 1px solid var(--font-color);
 	margin-bottom: 125px;
-	text-align: right;
+	text-align: center;
 }
-
