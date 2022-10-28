@@ -56,6 +56,34 @@ a:active, a:hover {
 	margin-right: auto;
 }
 
+.object2 {
+	background-image: url("files/2.png");
+	background-size: cover;
+	background-position: center;
+	width: 500px;
+	height: 500px;
+	max-width: 70%;
+	border-radius: 50%;
+	margin-top: 125px;
+	margin-bottom: 125px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.object3 {
+	background-image: url("files/3.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 500px;
+	height: 500px;
+	max-width: 70%;
+	border-radius: 50%;
+	margin-top: 125px;
+	margin-bottom: 125px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .txt {
 	width: 100%;
 	border-top: 1px solid var(--font-color);
