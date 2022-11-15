@@ -1,7 +1,6 @@
 :root {
 	--background-color: #190000;
 	--font-color: #ffffff;
-	--border-color: #ffffff;
 }
 
 body {
@@ -85,28 +84,15 @@ a:active, a:hover {
 	margin-right: auto;
 }
 
-.about {
+.txt {
 	width: 100%;
-	border-top: 1px solid var(--border-color);
+	border-top: 1px solid var(--font-color);
 	text-align: center;
 }
 
-.about-last {
+.txt-last {
 	width: 100%;
-	border-top: 1px solid var(--border-color);
-	border-bottom: 1px solid var(--border-color);
-	text-align: center;
-}
-
-.log {
-	width: 100%;
-	border-top: 1px solid var(--border-color);
-	text-align: center;
-}
-
-.log-last {
-	width: 100%;
-	border-top: 1px solid var(--border-color);
-	border-bottom: 1px solid var(--border-color);
+	border-top: 1px solid var(--font-color);
+	border-bottom: 1px solid var(--font-color);
 	text-align: center;
 }
