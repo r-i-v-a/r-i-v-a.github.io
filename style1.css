@@ -1,6 +1,7 @@
 :root {
 	--background-color: #190000;
 	--font-color: #ffffff;
+	--link-color: #ffffff;
 }
 
 body {
@@ -18,14 +19,14 @@ body, div, span, p {
 }
 
 a {
-	color: var(--font-color);
-	border-bottom: 7px solid var(--font-color);
+	color: var(--link-color);
+	border-bottom: 7px solid var(--link-color);
 	text-decoration: none;
 	font-style: italic;
 }
 
 a:active, a:hover {
-	color: var(--font-color);
+	color: var(--link-color);
 	border-bottom: none;
 	text-decoration: none;
 	font-style: italic;

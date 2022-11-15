@@ -1,0 +1,40 @@
+:root {
+	--background-color: #ffffff;
+	--font-color: #111111;
+	--link-color: #99ccff;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body, div, span, p {
+	background-color: var(--background-color);
+	color: var(--font-color);
+	font-family: "Times New Roman", serif;
+	font-size: 1.07em;
+	letter-spacing: 0.05em;
+	line-height: 1.7;
+}
+
+a {
+	color: var(--link-color);
+	border-bottom: 7px solid var(--link-color);
+	text-decoration: none;
+	font-style: italic;
+}
+
+a:active, a:hover {
+	color: var(--link-color);
+	border-bottom: none;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.container {
+	width: 1000px;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
