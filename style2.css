@@ -38,3 +38,16 @@ a:active, a:hover {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.txt {
+	width: 100%;
+	border-top: 1px solid var(--font-color);
+	text-align: left;
+}
+
+.txt-last {
+	width: 100%;
+	border-top: 1px solid var(--font-color);
+	border-bottom: 1px solid var(--font-color);
+	text-align: left;
+}
