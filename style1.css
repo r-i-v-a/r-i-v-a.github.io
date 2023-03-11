@@ -12,14 +12,25 @@ body, div, span, p {
 	background-color: var(--background-color);
 	color: var(--font-color);
 	font-family: "Times New Roman", serif;
-	font-size: 1.07em;
-	letter-spacing: 0.05em;
-	line-height: 1.7;
+}
+
+@media screen and (min-width: 1001px) {
+	body, div, span, p {
+		font-size: 1.1em;
+		letter-spacing: 0.09em;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	body, div, span, p {
+		font-size: 5vw;
+		letter-spacing: 0.09em;
+	}
 }
 
 a:link, a:visited {
 	color: var(--font-color);
-	border-bottom: 7px solid var(--font-color);
+	border-bottom: 0.33em solid var(--font-color);
 	text-decoration: none;
 	font-style: italic;
 }
