@@ -72,5 +72,5 @@ a.after:link, a.after:visited, a.after:active, a.after:hover {
 	width: 100%;
 	border-top: 1px solid var(--font-color);
 	border-bottom: 1px solid var(--font-color);
-	text-align: left;
+	text-align: right;
 }
