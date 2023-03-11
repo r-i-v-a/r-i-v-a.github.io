@@ -32,7 +32,7 @@ a:active, a:hover {
 }
 
 a.before:link, a.before:visited, a.before:active, a.before:hover {
-	background-color: #11ff11;
+	background-color: var(--background-color);
 	color: var(--font-color);
 	text-align: center;
 	text-decoration: none;
@@ -44,7 +44,7 @@ a.before:link, a.before:visited, a.before:active, a.before:hover {
 }
 
 a.after:link, a.after:visited, a.after:active, a.after:hover {
-	background-color: var(--background-color);
+	background-color: #ffffff;
 	color: var(--font-color);
 	text-align: center;
 	text-decoration: none;
