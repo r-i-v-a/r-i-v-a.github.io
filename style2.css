@@ -31,9 +31,9 @@ a:active, a:hover {
 	font-style: italic;
 }
 
-a.fill:link, a.fill:visited, a.fill:active, a.fill:hover {
-	background-color: var(--font-color);
-	color: var(--background-color);
+a.before:link, a.before:visited, a.before:active, a.before:hover {
+	background-color: #11ff11;
+	color: var(--font-color);
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -43,7 +43,7 @@ a.fill:link, a.fill:visited, a.fill:active, a.fill:hover {
 	border-radius: 2.5em;
 }
 
-a.blank:link, a.blank:visited, a.blank:active, a.blank:hover {
+a.after:link, a.after:visited, a.after:active, a.after:hover {
 	background-color: var(--background-color);
 	color: var(--font-color);
 	text-align: center;
