@@ -34,23 +34,25 @@ a:active, a:hover {
 a.fill:link, a.fill:visited, a.fill:active, a.fill:hover {
 	background-color: var(--font-color);
 	color: var(--background-color);
-	padding: 0px 25px;
-	margin: 2px;
-	border: 1px solid var(--font-color);
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
+	padding: 0px 25px;
+	margin: 2px;
+	border: 1px solid var(--font-color);
+	border-radius: 2.5em;
 }
 
 a.blank:link, a.blank:visited, a.blank:active, a.blank:hover {
 	background-color: var(--background-color);
 	color: var(--font-color);
-	padding: 0px 25px;
-	margin: 2px;
-	border: 1px solid var(--font-color);
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
+	padding: 0px 25px;
+	margin: 2px;
+	border: 1px solid var(--font-color);
+	border-radius: 2.5em;
 }
 
 .container {
