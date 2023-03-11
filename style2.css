@@ -42,6 +42,17 @@ a.fill:link, a.fill:visited, a.fill:active, a.fill:hover {
 	display: inline-block;
 }
 
+a.blank:link, a.blank:visited, a.blank:active, a.blank:hover {
+	background-color: var(--background-color);
+	color: var(--font-color);
+	padding: 0px 25px;
+	margin: 2px;
+	border: 1px solid var(--font-color);
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
 .container {
 	width: 1000px;
 	max-width: 90%;
