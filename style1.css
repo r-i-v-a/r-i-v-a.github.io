@@ -54,7 +54,7 @@ a:active, a:hover {
 }
 
 .object1 {
-	background-image: url("files/1.jpg");
+	background-image: url("f/1.jpg");
 	background-size: cover;
 	background-position: center;
 	width: 500px;
@@ -68,7 +68,7 @@ a:active, a:hover {
 }
 
 .object2 {
-	background-image: url("files/2.png");
+	background-image: url("f/2.png");
 	background-size: cover;
 	background-position: center;
 	width: 500px;
@@ -82,7 +82,7 @@ a:active, a:hover {
 }
 
 .object3 {
-	background-image: url("files/3.jpg");
+	background-image: url("f/3.jpg");
 	background-size: cover;
 	background-position: center;
 	width: 500px;
