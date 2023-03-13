@@ -97,13 +97,6 @@ a:active, a:hover {
 
 .txt {
 	width: 100%;
-	border-top: 1px solid var(--font-color);
-	text-align: center;
-}
-
-.txt-last {
-	width: 100%;
-	border-top: 1px solid var(--font-color);
-	border-bottom: 1px solid var(--font-color);
+	border: none;
 	text-align: center;
 }
