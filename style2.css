@@ -1,6 +1,5 @@
 :root {
 	--background-color: #cccccc;
-	--hover-color: #bbccff;
 	--font-color: #190000;
 }
 
@@ -51,7 +50,7 @@ a:active, a:hover {
 	font-style: italic;
 	text-align: center;
 	text-decoration: none;
-	background-color: var(--hover-color);
+	background-color: var(--background-color);
 	color: var(--font-color);
 }
 
@@ -64,7 +63,7 @@ a.at:link, a.at:visited, a.at:active, a.at:hover {
 	font-style: italic;
 	text-align: center;
 	text-decoration: none;
-	background-color: var(--hover-color);
+	background-color: #bbccff;
 	color: var(--font-color);
 }
 
