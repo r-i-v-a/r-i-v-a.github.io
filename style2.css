@@ -55,6 +55,19 @@ a:active, a:hover {
 	color: var(--font-color);
 }
 
+a.at:link, a.at:visited, a.at:active, a.at:hover {
+	display: inline-block;
+	padding: 0px 25px;
+	margin: 2px;
+	border: 1px solid var(--font-color);
+	border-radius: 2.5em;
+	font-style: italic;
+	text-align: center;
+	text-decoration: none;
+	background-color: var(--hover-color);
+	color: var(--font-color);
+}
+
 .container {
 	width: 1000px;
 	max-width: 90%;
