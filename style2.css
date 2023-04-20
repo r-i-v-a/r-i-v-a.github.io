@@ -52,8 +52,8 @@ a.oval:link, a.oval:visited, a.oval:active, a.oval:hover {
 }
 
 a.at:link, a.at:visited, a.at:active, a.at:hover {
-	border: 2px solid #ffff95;
-	background-color: #ffff95;
+	border: 2px solid #fff999;
+	background-color: #fff999;
 }
 
 .container {
@@ -65,13 +65,18 @@ a.at:link, a.at:visited, a.at:active, a.at:hover {
 
 .txt {
 	width: 100%;
-	border-top: 2px solid var(--font-color);
+	border: 1px dashed var(--font-color);
+	padding: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 	text-align: left;
 }
 
-.txt-last {
+.txt-right {
 	width: 100%;
-	border-top: 2px solid var(--font-color);
-	border-bottom: 2px solid var(--font-color);
+	border: 1px dashed var(--font-color);
+	padding: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 	text-align: right;
 }
