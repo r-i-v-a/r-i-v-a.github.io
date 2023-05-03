@@ -60,7 +60,9 @@ a.oval:link, a.oval:visited, a.oval:active, a.oval:hover {
 
 .page {
 	width: 100%;
-	border: 3px double var(--font-color);
+	border: thin solid var(--font-color);
+	outline: thin solid var(--font-color);
+	outline-offset: 3px;
 	padding: 25px;
 	text-align: left;
 }
