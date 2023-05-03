@@ -51,11 +51,6 @@ a.oval:link, a.oval:visited, a.oval:active, a.oval:hover {
 	background-color: var(--background-color);
 }
 
-a.at:link, a.at:visited, a.at:active, a.at:hover {
-	border: 2px solid #fff999;
-	background-color: #fff999;
-}
-
 .container {
 	width: 1000px;
 	max-width: 90%;
@@ -63,20 +58,17 @@ a.at:link, a.at:visited, a.at:active, a.at:hover {
 	margin-right: auto;
 }
 
-.txt {
+.page {
 	width: 100%;
-	border: 1px dashed var(--font-color);
-	padding: 15px;
-	margin-top: 15px;
-	margin-bottom: 15px;
+	border: 3px double var(--font-color);
+	padding: 25px;
 	text-align: left;
 }
 
-.txt-right {
+.row {
 	width: 100%;
-	border: 1px dashed var(--font-color);
-	padding: 15px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	text-align: right;
+	border: none;
+	margin-top: 125px;
+	margin-bottom: 125px;
+	text-align: center;
 }
