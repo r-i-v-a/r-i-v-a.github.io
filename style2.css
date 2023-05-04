@@ -20,6 +20,15 @@ body, div, span, p {
 		line-height: 1.3em;
 		letter-spacing: 0.09em;
 	}
+
+	.page {
+		width: 100%;
+		border: thin solid var(--font-color);
+		outline: thin solid var(--font-color);
+		outline-offset: 3px;
+		padding: 25px;
+		text-align: justify;
+	}
 }
 
 @media screen and (max-width: 1000px) {
@@ -27,6 +36,14 @@ body, div, span, p {
 		font-size: 5vw;
 		line-height: 1.3em;
 		letter-spacing: 0.09em;
+	}
+
+	.page {
+		width: 100%;
+		border: none;
+		outline: none;
+		padding: 25px;
+		text-align: justify;
 	}
 }
 
@@ -56,15 +73,6 @@ a.oval:link, a.oval:visited, a.oval:active, a.oval:hover {
 	max-width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.page {
-	width: 100%;
-	border: thin solid var(--font-color);
-	outline: thin solid var(--font-color);
-	outline-offset: 3px;
-	padding: 25px;
-	text-align: left;
 }
 
 .row {
