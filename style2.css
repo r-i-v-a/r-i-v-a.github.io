@@ -25,7 +25,7 @@ body, div, span, p {
 		width: 100%;
 		border: thin solid var(--font-color);
 		outline: thin solid var(--font-color);
-		outline-offset: 3px;
+		outline-offset: 5px;
 		padding: 25px;
 		text-align: justify;
 	}
