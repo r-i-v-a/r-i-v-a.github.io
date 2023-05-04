@@ -48,7 +48,7 @@ body, div, span, p {
 }
 
 a:link, a:visited, a:active, a:hover {
-	border-bottom: 2px solid var(--font-color);
+	border-bottom: 3px solid var(--font-color);
 	font-style: italic;
 	text-decoration: none;
 	color: var(--font-color);
@@ -58,8 +58,8 @@ a:link, a:visited, a:active, a:hover {
 a.oval:link, a.oval:visited, a.oval:active, a.oval:hover {
 	display: inline-block;
 	padding: 0px 25px;
-	margin: 2px;
-	border: 2px solid var(--font-color);
+	margin: 3px;
+	border: 3px solid var(--font-color);
 	border-radius: 2.5em;
 	font-style: italic;
 	text-align: center;
