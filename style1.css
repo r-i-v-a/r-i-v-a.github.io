@@ -70,18 +70,6 @@ a.oval:link, a.oval:visited, a.oval:active, a.oval:hover {
 	margin-right: auto;
 }
 
-.object2 {
-	background-image: url("f/5.jpg");
-	background-size: cover;
-	background-position: center;
-	filter: grayscale(100%);
-	width: 750px;
-	height: 750px;
-	max-width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 .row {
 	width: 100%;
 	border: none;
