@@ -1,6 +1,6 @@
 :root {
-	--background-color: #210000;
-	--font-color: #ffffff;
+	--background-color: #fcfcfc;
+	--font-color: #330000;
 }
 
 body {
@@ -60,6 +60,18 @@ a.oval:link, a.oval:visited, a.oval:active, a.oval:hover {
 
 .object1 {
 	background-image: url("f/4.jpg");
+	background-size: cover;
+	background-position: center;
+	filter: grayscale(100%);
+	width: 750px;
+	height: 750px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.object2 {
+	background-image: url("f/5.jpg");
 	background-size: cover;
 	background-position: center;
 	filter: grayscale(100%);
