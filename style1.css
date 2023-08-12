@@ -1,7 +1,6 @@
 :root {
 	--background-color: #fcfcfc;
-	--accent-color: #ffee99;
-	--font-color: #111111;
+	--font-color: #750000;
 }
 
 body {
@@ -32,7 +31,7 @@ body, div, span, p {
 }
 
 a:link, a:visited, a:active, a:hover {
-	border-bottom: 0.3em solid var(--accent-color);
+	border-bottom: 0.3em solid var(--font-color);
 	color: var(--font-color);
 	background-color: var(--background-color);
 	font-style: italic;
@@ -40,8 +39,8 @@ a:link, a:visited, a:active, a:hover {
 }
 
 a.oval:link, a.oval:visited, a.oval:active, a.oval:hover {
-	color: var(--font-color);
-	background-color: var(--accent-color);
+	color: var(--background-color);
+	background-color: var(--font-color);
 	display: inline-block;
 	padding: 0.1em 1em;
 	margin: 0.3em;
