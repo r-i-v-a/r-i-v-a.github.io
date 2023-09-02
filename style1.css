@@ -1,6 +1,6 @@
 :root {
 	--background-color: #fcfcfc;
-	--accent-color: #ffee99;
+	--accent-color: #acaaf6;
 	--font-color: #111111;
 }
 
@@ -60,10 +60,10 @@ a.oval:link, a.oval:visited, a.oval:active, a.oval:hover {
 }
 
 .object1 {
-	background-image: url("f/5.jpg");
+	background-image: url("f/11.jpg");
 	background-size: cover;
 	background-position: center;
-	filter: grayscale(100%);
+	/* filter: grayscale(100%); */
 	width: 750px;
 	height: 750px;
 	max-width: 100%;
