@@ -1,6 +1,6 @@
 :root {
-	--background-color: #fcfcfc;
-	--accent-color: #bdbce9;
+	--background-color: #e6dff3;
+	--accent-color: #ffffff;
 	--font-color: #111111;
 }
 
@@ -18,7 +18,7 @@ body, div, span, p {
 @media screen and (min-width: 1001px) {
 	body, div, span, p {
 		font-size: 1.1em;
-		line-height: 1.3em;
+		line-height: 1.5em;
 		letter-spacing: 0.09em;
 	}
 }
@@ -26,13 +26,13 @@ body, div, span, p {
 @media screen and (max-width: 1000px) {
 	body, div, span, p {
 		font-size: 5vw;
-		line-height: 1.3em;
+		line-height: 1.5em;
 		letter-spacing: 0.09em;
 	}
 }
 
 a:link, a:visited, a:active, a:hover {
-	border-bottom: 0.3em solid var(--accent-color);
+	border-bottom: 2px solid var(--font-color);
 	color: var(--font-color);
 	background-color: var(--background-color);
 	font-style: italic;
