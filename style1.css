@@ -9,8 +9,15 @@ body {
 	padding: 0;
 }
 
-body, div, span, p {
-	background-color: var(--background-color);
+body {
+	background: var(--background-color);
+	background: linear-gradient(45deg, rgba(115,26,0,1) 1%, rgba(229,224,250,1) 100%);
+	color: var(--font-color);
+	font-family: "Times New Roman", serif;
+}
+
+div, span, p {
+	background: none;
 	color: var(--font-color);
 	font-family: "Times New Roman", serif;
 }
@@ -34,7 +41,7 @@ body, div, span, p {
 a:link, a:visited, a:active, a:hover {
 	border-bottom: 2px solid var(--font-color);
 	color: var(--font-color);
-	background-color: var(--background-color);
+	background: none;
 	font-style: italic;
 	text-decoration: none;
 }
