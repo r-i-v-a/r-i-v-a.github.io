@@ -8,7 +8,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background: var(--background-color);
-	background-image: linear-gradient(45deg, #a16c3d 1%, #f0e9ff 100%);
+	background-image: radial-gradient(ellipse at top, #ffdc6a 1%, #dadae9 100%);
 }
 
 div, span, p {
