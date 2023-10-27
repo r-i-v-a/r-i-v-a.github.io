@@ -1,7 +1,6 @@
 :root {
-	--gradient-color-1: #ffdc6a;
-	--gradient-color-2: #dadae9;
-	--accent-color: #ffffff;
+	--gradient-color-1: #fff0c0;
+	--gradient-color-2: #e0e0f3;
 	--font-color: #111111;
 }
 
@@ -20,7 +19,7 @@ div, span, p {
 
 @media screen and (min-width: 1001px) {
 	body, div, span, p {
-		font-size: 1.1em;
+		font-size: 2.5vw;
 		line-height: 1.5em;
 		letter-spacing: 0.09em;
 	}
@@ -35,23 +34,10 @@ div, span, p {
 }
 
 a:link, a:visited, a:active, a:hover {
-	border-bottom: 3px solid var(--font-color);
 	color: var(--font-color);
+	border-bottom: 5px solid var(--font-color);
 	background: none;
 	font-style: italic;
-	text-decoration: none;
-}
-
-a.oval:link, a.oval:visited, a.oval:active, a.oval:hover {
-	color: var(--font-color);
-	background-color: var(--accent-color);
-	display: inline-block;
-	padding: 0.1em 1em;
-	margin: 0.3em;
-	border: none;
-	border-radius: 2.5em;
-	font-style: italic;
-	text-align: center;
 	text-decoration: none;
 }
 
@@ -67,8 +53,9 @@ a.oval:link, a.oval:visited, a.oval:active, a.oval:hover {
 	background-size: cover;
 	background-position: center;
 	/* filter: grayscale(100%); */
-	width: 750px;
-	height: 750px;
+	width: 300px;
+	height: 600px;
+	border-radius: 150px;
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -79,5 +66,5 @@ a.oval:link, a.oval:visited, a.oval:active, a.oval:hover {
 	border: none;
 	margin-top: 125px;
 	margin-bottom: 125px;
-	text-align: center;
+	text-align: justify;
 }
