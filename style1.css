@@ -33,9 +33,17 @@ div, span, p {
 	}
 }
 
-a:link, a:visited, a:active, a:hover {
+a:link, a:visited {
 	color: var(--font-color);
 	border-bottom: 5px solid var(--font-color);
+	background: none;
+	font-style: italic;
+	text-decoration: none;
+}
+
+a:active, a:hover {
+	color: var(--font-color);
+	border-bottom: none;
 	background: none;
 	font-style: italic;
 	text-decoration: none;
@@ -49,7 +57,7 @@ a:link, a:visited, a:active, a:hover {
 }
 
 .object1 {
-	background-image: url("f/11.jpg");
+	background-image: url("f/the_hilltop_douglas_dundas.jpg");
 	background-size: cover;
 	background-position: center;
 	/* filter: grayscale(100%); */
