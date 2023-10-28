@@ -1,6 +1,6 @@
 :root {
-	--gradient-color-1: #e1e1f9;
-	--gradient-color-2: #fbeacf;
+	--gradient-color-1: #fff0c0;
+	--gradient-color-2: #e0e0f3;
 	--font-color: #111111;
 }
 
@@ -57,7 +57,7 @@ a:active, a:hover {
 }
 
 .object1 {
-	background-image: url("f/the_hilltop_douglas_dundas.jpg");
+	background-image: url("./autumn_birch_isaac_levitan.png");
 	background-size: cover;
 	background-position: center;
 	/* filter: grayscale(100%); */
