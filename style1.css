@@ -33,16 +33,16 @@ div, span, p {
 
 a:link, a:visited {
 	color: var(--font-color);
-	border-bottom: 5px solid var(--font-color);
-	background: none;
+	background: linear-gradient(45deg, rgb(198, 155, 99) 1%, rgb(239, 235, 248) 100%);
+	padding: 3px;
 	font-style: italic;
 	text-decoration: none;
 }
 
 a:active, a:hover {
 	color: var(--font-color);
-	border-bottom: none;
-	background: none;
+	background: linear-gradient(45deg, rgb(198, 155, 99) 1%, rgb(239, 235, 248) 100%);
+	padding: 3px;
 	font-style: italic;
 	text-decoration: none;
 }
