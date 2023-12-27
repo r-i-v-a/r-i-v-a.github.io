@@ -1,14 +1,12 @@
 :root {
-	--gradient-color-1: #fff0c0;
-	--gradient-color-2: #e0e0f3;
+	--background-color: #fafafa;
 	--font-color: #111111;
 }
 
 body {
 	margin: 0;
 	padding: 0;
-	background: var(--gradient-color-2);
-	background-image: radial-gradient(ellipse at top, var(--gradient-color-1) 1%, var(--gradient-color-2) 100%);
+	background: var(--background-color);
 }
 
 div, span, p {
@@ -57,7 +55,7 @@ a:active, a:hover {
 }
 
 .object1 {
-	background-image: url("./landscape_with_pond_otakar_hurka.png");
+	background-image: url("./edge_of_a_wood_unknown.jpg");
 	background-size: cover;
 	background-position: center;
 	/* filter: grayscale(100%); */
