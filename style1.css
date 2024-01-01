@@ -55,6 +55,19 @@ a:active, a:hover {
 }
 
 .object1 {
+	background-image: url("./the_dropsical_woman_gerrit_dou.jpg");
+	background-size: cover;
+	background-position: center;
+	/* filter: grayscale(100%); */
+	width: 300px;
+	height: 600px;
+	border-radius: 150px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.object2 {
 	background-image: url("./april_day_karel_zivny.jpg");
 	background-size: cover;
 	background-position: center;
