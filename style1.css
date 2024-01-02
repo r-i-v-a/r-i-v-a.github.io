@@ -1,12 +1,13 @@
 :root {
-	--background-color: #fafafa;
-	--font-color: #111111;
+	--background-color-1: #372525;
+	--background-color-2: #372525;
+	--font-color: #fafafa;
 }
 
 body {
 	margin: 0;
 	padding: 0;
-	background: var(--background-color);
+	background: linear-gradient(45deg, var(--background-color-1) 1%, var(--background-color-2) 100%);
 }
 
 div, span, p {
@@ -33,16 +34,14 @@ div, span, p {
 
 a:link, a:visited {
 	color: var(--font-color);
-	background: linear-gradient(45deg, rgb(199, 63, 33) 1%, rgb(221, 224, 228) 100%);
-	padding: 4px;
+	border-bottom: 5px solid var(--font-color);
 	font-style: italic;
 	text-decoration: none;
 }
 
 a:active, a:hover {
 	color: var(--font-color);
-	background: linear-gradient(45deg, rgb(199, 63, 33) 1%, rgb(221, 224, 228) 100%);
-	padding: 4px;
+	border-bottom: 1px solid var(--font-color);
 	font-style: italic;
 	text-decoration: none;
 }
