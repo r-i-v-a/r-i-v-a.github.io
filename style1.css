@@ -56,7 +56,7 @@ a:active, a:hover {
 }
 
 .object1 {
-	background-image: url("./images/april_day_karel_zivny.jpg");
+	background-image: url("f/april_day_karel_zivny.jpg");
 	background-size: cover;
 	background-position: center;
 	/* filter: grayscale(100%); */
