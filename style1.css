@@ -1,5 +1,5 @@
 :root {
-	--background-color-1: #b3d3bd;
+	--background-color-1: #afcfc0;
 	--background-color-2: #f3f3f3;
 	--font-color: #111111;
 }
@@ -35,6 +35,7 @@ div, span, p {
 a:link, a:visited {
 	color: var(--font-color);
 	border-bottom: 5px solid var(--font-color);
+	margin: 1px 15px;
 	font-style: italic;
 	text-decoration: none;
 }
@@ -42,12 +43,9 @@ a:link, a:visited {
 a:active, a:hover {
 	color: var(--font-color);
 	border-bottom: 1px solid var(--font-color);
+	margin: 1px 15px;
 	font-style: italic;
 	text-decoration: none;
-}
-
-hr {
-	border-top: 1px solid var(--font-color);
 }
 
 .container {

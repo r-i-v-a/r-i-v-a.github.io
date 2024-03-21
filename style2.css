@@ -1,5 +1,5 @@
 :root {
-	--background-color-1: #b3d3bd;
+	--background-color-1: #afcfc0;
 	--background-color-2: #f3f3f3;
 	--font-color: #111111;
 }
@@ -45,10 +45,6 @@ a:active, a:hover {
 	text-decoration: none;
 }
 
-hr {
-	border-top: 1px solid var(--font-color);
-}
-
 .container {
 	width: 750px;
 	max-width: 90%;
@@ -61,5 +57,5 @@ hr {
 	border: none;
 	margin-top: 125px;
 	margin-bottom: 125px;
-	text-align: center;
+	text-align: justify;
 }
