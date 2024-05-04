@@ -34,17 +34,21 @@ div, span, p {
 }
 
 a:link, a:visited {
-	color: var(--font-color);
-	border-bottom: 5px solid var(--font-color);
-	margin: 1px 15px;
+	color: var(--background-color-2);
+	background-color: var(--font-color);
+	border-radius: 2em;
+	padding: 1px 20px;
+	margin: 1px 20px;
 	font-style: italic;
 	text-decoration: none;
 }
 
 a:active, a:hover {
-	color: var(--font-color);
-	border-bottom: 1px solid var(--font-color);
-	margin: 1px 15px;
+	color: var(--background-color-2);
+	background-color: var(--font-color);
+	border-radius: 2em;
+	padding: 1px 20px;
+	margin: 1px 20px;
 	font-style: italic;
 	text-decoration: none;
 }
@@ -57,7 +61,7 @@ a:active, a:hover {
 }
 
 .object1 {
-	background-image: url("f/april_day_karel_zivny.jpg");
+	background-image: url("f/evening_snow_at_kambara_uatgawa_hiroshige.jpg");
 	background-size: cover;
 	background-position: center;
 	/* filter: grayscale(100%); */
