@@ -33,14 +33,14 @@ div, span, p {
 
 a:link, a:visited {
 	color: var(--font-color);
-	border-bottom: 5px solid var(--font-color);
+	border-bottom: 3px solid var(--font-color);
 	font-style: italic;
 	text-decoration: none;
 }
 
 a:active, a:hover {
 	color: var(--font-color);
-	border-bottom: 1px solid var(--font-color);
+	border-bottom: 3px solid var(--font-color);
 	font-style: italic;
 	text-decoration: none;
 }
