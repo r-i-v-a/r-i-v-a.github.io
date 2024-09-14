@@ -1,6 +1,6 @@
 :root {
 	--background-color: #fafafa;
-	--font-color: #330000;
+	--font-color: #111111;
 }
 
 html {
@@ -31,11 +31,11 @@ div, span, p {
 }
 
 a:link, a:visited, a:active, a:hover {
-	color: var(--background-color);
-	background-color: var(--font-color);
-	border-radius: 2em;
-	padding: 1px 25px;
-	margin: 1px 2px;
+	color: var(--font-color);
+	background-color: var(--background-color);
+	background: linear-gradient(45deg, #dad9d5 1%, #f0f0f1 100%); 
+	padding: 1px 12px;
+	margin: 1px 12px;
 	font-style: italic;
 	text-decoration: none;
 }
@@ -51,9 +51,9 @@ a:link, a:visited, a:active, a:hover {
 	background-image: url("f/evening_snow_at_kambara_utagawa_hiroshige.jpg");
 	background-size: cover;
 	background-position: center;
-	/* filter: grayscale(100%); */
-	width: 750px;
-	height: 750px;
+	width: 700px;
+	height: 700px;
+	border-radius: 350px;
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;

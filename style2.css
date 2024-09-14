@@ -1,6 +1,6 @@
 :root {
 	--background-color: #fafafa;
-	--font-color: #330000;
+	--font-color: #111111;
 }
 
 html {
@@ -32,7 +32,9 @@ div, span, p {
 
 a:link, a:visited, a:active, a:hover {
 	color: var(--font-color);
-	border-bottom: 3px solid var(--font-color);
+	background-color: var(--background-color);
+	background: linear-gradient(45deg, #dad9d5 1%, #f0f0f1 100%); 
+	padding: 1px 12px;
 	font-style: italic;
 	text-decoration: none;
 }
