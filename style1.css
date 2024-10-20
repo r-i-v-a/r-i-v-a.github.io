@@ -58,6 +58,17 @@ a:link, a:visited, a:active, a:hover {
 	margin-right: auto;
 }
 
+.picture2 {
+	background-image: url("f/april_day_karel_zivny.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 750px;
+	height: 750px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .row {
 	width: 100%;
 	border: none;
