@@ -1,12 +1,14 @@
 :root {
-	--background-color: #dad9d5;
+	--background-color-1: #494141;
+	--background-color-2: #fafafa;
 	--font-color: #111111;
 }
 
 html {
 	margin: 0;
 	min-height: 100%;
-	background: var(--background-color);
+	background: var(--background-color-2);
+	background-image: radial-gradient(circle at top, var(--background-color-1) 1%, var(--background-color-2) 100%);
 }
 
 div, span, p {
@@ -32,9 +34,8 @@ div, span, p {
 
 a:link, a:visited, a:active, a:hover {
 	color: var(--font-color);
-	border-bottom: medium dotted var(--font-color);
-	background-color: var(--background-color);
-	padding: 1px 12px;
+	border-bottom: medium solid var(--font-color);
+	padding: 1px 2px;
 	margin: 1px 12px;
 	font-style: italic;
 	text-decoration: none;
@@ -49,17 +50,6 @@ a:link, a:visited, a:active, a:hover {
 
 .picture1 {
 	background-image: url("f/evening_snow_at_kambara_utagawa_hiroshige.jpg");
-	background-size: cover;
-	background-position: center;
-	width: 750px;
-	height: 750px;
-	max-width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.picture2 {
-	background-image: url("f/april_day_karel_zivny.jpg");
 	background-size: cover;
 	background-position: center;
 	width: 750px;
