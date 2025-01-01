@@ -1,15 +1,12 @@
 :root {
-	--background-color-1: #49413f;
-	--background-color-2: #fafafa;
+	--background-color: #efefef;
 	--font-color: #111111;
 }
 
 html {
 	margin: 0;
 	min-height: 100%;
-	background: var(--background-color-2);
-	background-image: radial-gradient(circle at top, var(--background-color-1) 1%, var(--background-color-2) 100%);
-	background-repeat: no-repeat;
+	background: var(--background-color);
 }
 
 div, span, p {
@@ -34,10 +31,11 @@ div, span, p {
 }
 
 a:link, a:visited, a:active, a:hover {
-	color: var(--font-color);
-	border-bottom: medium dotted var(--font-color);
-	padding: 1px 2px;
-	margin: 1px 12px;
+	color: var(--background-color);
+	background-color: var(--font-color);
+	border-radius: 2em;
+	padding: 1px 25px;
+	margin: 1px 5px;
 	font-style: italic;
 	text-decoration: none;
 }

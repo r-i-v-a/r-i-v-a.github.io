@@ -1,13 +1,12 @@
 :root {
-	--background-color-1: #49413f;
-	--background-color-2: #fafafa;
+	--background-color: #efefef;
 	--font-color: #111111;
 }
 
 html {
 	margin: 0;
 	min-height: 100%;
-	background: var(--background-color-2);
+	background: var(--background-color);
 }
 
 div, span, p {
@@ -34,7 +33,7 @@ div, span, p {
 a:link, a:visited, a:active, a:hover {
 	color: var(--font-color);
 	border-bottom: medium dotted var(--font-color);
-	padding: 1px 2px;
+	padding: 1px 5px;
 	font-style: italic;
 	text-decoration: none;
 }
