@@ -31,11 +31,9 @@ div, span, p {
 }
 
 a:link, a:visited, a:active, a:hover {
-	color: var(--background-color);
-	background-color: var(--font-color);
-	border-radius: 2em;
-	padding: 1px 25px;
-	margin: 1px 5px;
+	color: var(--font-color);
+	border-bottom: 3px solid var(--font-color);
+	padding: 1px 4px;
 	font-style: italic;
 	text-decoration: none;
 }
@@ -47,21 +45,10 @@ a:link, a:visited, a:active, a:hover {
 	margin-right: auto;
 }
 
-.picture1 {
-	background-image: url("f/sunbirds_nectarinia_mcgill_library_.jpg");
-	background-size: cover;
-	background-position: center;
-	width: 750px;
-	height: 750px;
-	max-width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 .row {
 	width: 100%;
 	border: none;
 	margin-top: 125px;
 	margin-bottom: 125px;
-	text-align: center;
+	text-align: justify;
 }
