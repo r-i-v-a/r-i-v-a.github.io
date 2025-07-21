@@ -32,7 +32,7 @@ div, span, p {
 
 a:link, a:visited, a:active, a:hover {
 	color: var(--font-color);
-	border-bottom: 4px solid var(--font-color);
+	border-bottom: 3px solid var(--font-color);
 	padding: 1px 4px;
 	font-style: italic;
 	text-decoration: none;
