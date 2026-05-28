@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Random Exercise</title>
+	<link rel="stylesheet" href="style1.css" />
+	<meta charset="UTF-8">
+</head>
+
+<body>
+	<div class="container">
+
+		<div class="row">
+			<p id="text">start</p>
+		</div>
+
+		<div class="row">
+			<p><button onclick="nextRandomExercise()">Next</button></p>
+		</div>
+
+		<script>
+			const textElement = document.getElementById('text');
+
+			const exerciseList = [
+				"[weight] arm curl",
+				"[weight] bear plank row",
+				"[weight] forward press",
+				"[weight] lunge",
+				"[weight] releve",
+				"[weight] Romanian deadlift",
+				"[weight] single-arm row",
+				"[weight] small arm circle",
+				"[weight] upward press",
+				"alternate knees to side",
+				"back arm wrap",
+				"back core hold",
+				"back twist",
+				"bicycle crunch",
+				"butterfly stretch",
+				"cat / cow",
+				"clamshell",
+				"downward-facing dog",
+				"floor barre developpe",
+				"front arm wrap",
+				"front core hold",
+				"front leg stretch",
+				"front plank",
+				"front split",
+				"hundred",
+				"kick back",
+				"mermaid side stretch",
+				"modified side plank",
+				"pigeon pose",
+				"plie first",
+				"plie second",
+				"push-up",
+				"quad stretch",
+				"rehabilitation breathing",
+				"rehabilitation mini bicycle",
+				"rehabilitation mini hundred",
+				"side leg stretch",
+				"side lunge shift",
+				"side plank",
+				"side split",
+				"side-angle pose",
+				"small arm circle",
+				"small leg circle",
+				"standing developpe",
+				"sun salutation",
+				"tendu",
+				"toe point and flex",
+				"toe taps",
+				"toe touch",
+				"turnout rotation",
+				"warrior I",
+				"warrior II",
+				"wheel / bridge",
+			];
+
+			let text = "start";
+
+			function nextRandomExercise() {
+				text = exerciseList.at(Math.floor(Math.random() * exerciseList.length));
+				updateTextElement();
+			}
+
+			function updateTextElement() {
+				textElement.textContent = text;
+			}
+		</script>
+
+	</div>
+</body>
+
+</html>
