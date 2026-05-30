@@ -40,13 +40,6 @@ p {
 	}
 }
 
-.container {
-	width: 750px;
-	max-width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 a:link,
 a:visited,
 a:active,
@@ -64,13 +57,9 @@ button:hover {
 	text-decoration: none;
 }
 
-.picture1 {
-	background-image: url("f/watching_a_waterfall_tani_buncho.jpg");
-	background-size: cover;
-	background-position: center;
+.container {
 	width: 750px;
-	height: 750px;
-	max-width: 100%;
+	max-width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -81,4 +70,32 @@ button:hover {
 	margin-top: 125px;
 	margin-bottom: 125px;
 	text-align: center;
+}
+
+.centeredContainer {
+	display: grid;
+	place-items: center;
+	width: 750px;
+	height: 750px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#picture1 {
+	background-image: url("f/watching_a_waterfall_tani_buncho.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 750px;
+	height: 750px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#breathe {
+	width: 1%;
+	height: 1%;
+	background-color: black;
+	border-radius: 50%;
 }

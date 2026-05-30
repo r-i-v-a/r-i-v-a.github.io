@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Breathe</title>
+	<link rel="stylesheet" href="style1.css" />
+	<meta charset="UTF-8">
+</head>
+
+<body>
+	<div class="container">
+
+		<div class="row">
+			<p id="text">breathe in</p>
+		</div>
+
+		<div class="row">
+			<div class="centeredContainer">
+				<div id="breathe"></div>
+			</div>
+		</div>
+
+		<script>
+			const textElement = document.getElementById('text');
+			const breatheElement = document.getElementById('breathe');
+			const lengthMs = 5000;
+
+			function breatheIn() {
+				updateTextElement("breathe in");
+			}
+
+			function hold() {
+				updateTextElement("hold");
+			}
+
+			function breatheOut() {
+				updateTextElement("breathe out");
+			}
+
+			const stageFunctions = [breatheIn, hold, breatheOut, hold];
+			let stage = 0;
+
+			function sleep(ms) {
+				return new Promise(resolve => setTimeout(resolve, ms));
+			}
+
+			async function breatheLoop() {
+				for (let i = 0; i < 100; i++) {
+					console.log("stage " + stage);
+					stageFunctions[stage]();
+					stage = (stage + 1) % 4;
+					await sleep(lengthMs);
+				}
+			}
+
+			function updateTextElement(text) {
+				textElement.textContent = text;
+			}
+
+			breatheLoop();
+		</script>
+
+	</div>
+</body>
+
+</html>
