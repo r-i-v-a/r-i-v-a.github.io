@@ -98,4 +98,5 @@ button:hover {
 	height: 1%;
 	background-color: black;
 	border-radius: 50%;
+	transition: width 1s linear, height 1s linear;
 }

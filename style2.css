@@ -40,13 +40,6 @@ p {
 	}
 }
 
-.container {
-	width: 750px;
-	max-width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 a:link,
 a:visited,
 a:active,
@@ -62,6 +55,13 @@ button:hover {
 	font-family: inherit;
 	font-style: italic;
 	text-decoration: none;
+}
+
+.container {
+	width: 750px;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .row {
