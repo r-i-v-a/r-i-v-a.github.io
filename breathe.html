@@ -23,7 +23,7 @@
 		<script>
 			const textElement = document.getElementById('text');
 			const breatheElement = document.getElementById('breathe');
-			const lengthMs = 5100;
+			const lengthMs = 5500;
 
 			function breatheIn() {
 				updateTextElement("breathe in");
@@ -53,17 +53,16 @@
 				return new Promise(resolve => setTimeout(resolve, ms));
 			}
 
+			function updateTextElement(text) {
+				textElement.textContent = text;
+			}
+
 			async function breatheLoop() {
-				for (let i = 0; i < 100; i++) {
-					console.log("stage " + stage);
+				while (true) {
 					stageFunctions[stage]();
 					stage = (stage + 1) % 2;
 					await sleep(lengthMs); // Pause here
 				}
-			}
-
-			function updateTextElement(text) {
-				textElement.textContent = text;
 			}
 
 			// Start the loop
