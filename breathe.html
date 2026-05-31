@@ -23,16 +23,11 @@
 		<script>
 			const textElement = document.getElementById('text');
 			const breatheElement = document.getElementById('breathe');
-			const lengthMs = 1000;
+			const lengthMs = 5100;
 
 			function breatheIn() {
 				updateTextElement("breathe in");
 				animateBreathe(1, 100); // Animate from 1% to 100%
-			}
-
-			function hold() {
-				updateTextElement("hold");
-				// No animation, just hold the current size
 			}
 
 			function breatheOut() {
@@ -40,7 +35,7 @@
 				animateBreathe(100, 1); // Animate from 100% to 1%
 			}
 
-			const stageFunctions = [breatheIn, hold, breatheOut, hold];
+			const stageFunctions = [breatheIn, breatheOut];
 			let stage = 0;
 
 			// Helper function to animate the breathe element
@@ -62,7 +57,7 @@
 				for (let i = 0; i < 100; i++) {
 					console.log("stage " + stage);
 					stageFunctions[stage]();
-					stage = (stage + 1) % 4;
+					stage = (stage + 1) % 2;
 					await sleep(lengthMs); // Pause here
 				}
 			}
