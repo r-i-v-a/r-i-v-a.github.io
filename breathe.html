@@ -11,7 +11,7 @@
 	<div class="container">
 
 		<div class="row">
-			<p id="breatheText1">breathe in</p>
+			<p id="breatheInText">breathe in</p>
 		</div>
 
 		<div class="row">
@@ -21,25 +21,25 @@
 		</div>
 
 		<div class="row">
-			<p id="breatheText2">breathe out</p>
+			<p id="breatheOutText">breathe out</p>
 		</div>
 
 		<script>
-			const breatheTextElement1 = document.getElementById('breatheText1');
-			const breatheTextElement2 = document.getElementById('breatheText2');
-			const textElement = document.getElementById('text');
+			const breatheInTextElement = document.getElementById('breatheInText');
+			const breatheOutTextElement = document.getElementById('breatheOutText');
 			const breatheAnimationElement = document.getElementById('breatheAnimation');
+
 			const lengthMs = 7000;
 
 			function breatheIn() {
-				breatheTextElement1.textContent = "breathe in";
-				breatheTextElement2.textContent = "...";
+				breatheInTextElement.style.opacity = 1;
+				breatheOutTextElement.style.opacity = 0;
 				animateBreathe(1, 100); // Animate from 1% to 100%
 			}
 
 			function breatheOut() {
-				breatheTextElement1.textContent = "...";
-				breatheTextElement2.textContent = "breathe out";
+				breatheInTextElement.style.opacity = 0;
+				breatheOutTextElement.style.opacity = 1;
 				animateBreathe(100, 1); // Animate from 100% to 1%
 			}
 

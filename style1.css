@@ -100,3 +100,11 @@ button:hover {
 	border-radius: 50%;
 	transition: width 6s ease-in-out, height 6s ease-in-out;
 }
+
+#breatheInText {
+	opacity: 1;
+}
+
+#breatheOutText {
+	opacity: 0;
+}
