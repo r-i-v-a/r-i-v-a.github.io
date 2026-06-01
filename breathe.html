@@ -16,13 +16,13 @@
 
 		<div class="row">
 			<div class="centeredContainer">
-				<div id="breathe"></div>
+				<div id="breatheAnimation"></div>
 			</div>
 		</div>
 
 		<script>
 			const textElement = document.getElementById('text');
-			const breatheElement = document.getElementById('breathe');
+			const breatheAnimationElement = document.getElementById('breatheAnimation');
 			const lengthMs = 5500;
 
 			function breatheIn() {
@@ -40,12 +40,12 @@
 
 			// Helper function to animate the breathe element
 			function animateBreathe(startPercent, endPercent) {
-				breatheElement.style.width = `${startPercent}%`;
-				breatheElement.style.height = `${startPercent}%`;
+				breatheAnimationElement.style.width = `${startPercent}%`;
+				breatheAnimationElement.style.height = `${startPercent}%`;
 				// Force reflow to ensure the transition starts from the new size
-				void breatheElement.offsetWidth;
-				breatheElement.style.width = `${endPercent}%`;
-				breatheElement.style.height = `${endPercent}%`;
+				void breatheAnimationElement.offsetWidth;
+				breatheAnimationElement.style.width = `${endPercent}%`;
+				breatheAnimationElement.style.height = `${endPercent}%`;
 			}
 
 			// Helper function to sleep for a specified time
