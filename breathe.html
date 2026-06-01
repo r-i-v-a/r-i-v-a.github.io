@@ -11,7 +11,7 @@
 	<div class="container">
 
 		<div class="row">
-			<p id="text">breathe in</p>
+			<p id="breatheText1">breathe in</p>
 		</div>
 
 		<div class="row">
@@ -20,18 +20,26 @@
 			</div>
 		</div>
 
+		<div class="row">
+			<p id="breatheText2">breathe out</p>
+		</div>
+
 		<script>
+			const breatheTextElement1 = document.getElementById('breatheText1');
+			const breatheTextElement2 = document.getElementById('breatheText2');
 			const textElement = document.getElementById('text');
 			const breatheAnimationElement = document.getElementById('breatheAnimation');
-			const lengthMs = 5500;
+			const lengthMs = 7000;
 
 			function breatheIn() {
-				updateTextElement("breathe in");
+				breatheTextElement1.textContent = "breathe in";
+				breatheTextElement2.textContent = "...";
 				animateBreathe(1, 100); // Animate from 1% to 100%
 			}
 
 			function breatheOut() {
-				updateTextElement("breathe out");
+				breatheTextElement1.textContent = "...";
+				breatheTextElement2.textContent = "breathe out";
 				animateBreathe(100, 1); // Animate from 100% to 1%
 			}
 
@@ -51,10 +59,6 @@
 			// Helper function to sleep for a specified time
 			function sleep(ms) {
 				return new Promise(resolve => setTimeout(resolve, ms));
-			}
-
-			function updateTextElement(text) {
-				textElement.textContent = text;
 			}
 
 			async function breatheLoop() {
