@@ -43,10 +43,7 @@
 				animateBreathe(100, 1); // Animate from 100% to 1%
 			}
 
-			const stageFunctions = [breatheIn, breatheOut];
-			let stage = 0;
-
-			// Helper function to animate the breathe element
+			// Helper function for animation
 			function animateBreathe(startPercent, endPercent) {
 				breatheAnimationElement.style.width = `${startPercent}%`;
 				breatheAnimationElement.style.height = `${startPercent}%`;
@@ -56,16 +53,17 @@
 				breatheAnimationElement.style.height = `${endPercent}%`;
 			}
 
-			// Helper function to sleep for a specified time
+			// Helper function for waiting a specified time
 			function sleep(ms) {
 				return new Promise(resolve => setTimeout(resolve, ms));
 			}
 
 			async function breatheLoop() {
 				while (true) {
-					stageFunctions[stage]();
-					stage = (stage + 1) % 2;
-					await sleep(lengthMs); // Pause here
+					breatheIn();
+					await sleep(lengthMs); // Pause for animation
+					breatheOut();
+					await sleep(lengthMs); // Pause for animation
 				}
 			}
 
