@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Personal World Clock</title>
+	<link rel="stylesheet" href="style1.css" />
+	<meta charset="UTF-8">
+</head>
+
+<body>
+	<div class="container">
+
+		<div class="row">
+			<p>Prague</p>
+			<div id="time-prague"></div>
+		</div>
+
+		<div class="row">
+			<p>Baltimore</p>
+			<p id="time-baltimore"></p>
+		</div>
+
+		<div class="row">
+			<p>San Francisco</p>
+			<p id="time-san-francisco"></p>
+		</div>
+
+		<div class="row">
+			<p>New York</p>
+			<p id="time-new-york"></p>
+		</div>
+
+		<div class="row">
+			<p>Lvivska oblasť</p>
+			<p id="time-lvivska-oblast"></p>
+		</div>
+
+		<div class="row">
+			<p>Seattle</p>
+			<p id="time-seattle"></p>
+		</div>
+
+		<div class="row">
+			<p>Hanoi</p>
+			<p id="time-hanoi"></p>
+		</div>
+
+		<script>
+			function updateTimes() {
+				const now = new Date();
+
+				const timeZones = {
+					'time-prague': 'Europe/Prague',
+					'time-baltimore': 'America/New_York',
+					'time-san-francisco': 'America/Los_Angeles',
+					'time-new-york': 'America/New_York',
+					'time-lvivska-oblast': 'Europe/Kyiv',
+					'time-seattle': 'America/Los_Angeles',
+					'time-hanoi': 'Asia/Ho_Chi_Minh'
+				};
+
+				for (const [elementId, timezone] of Object.entries(timeZones)) {
+					const timeString = now.toLocaleTimeString('en-US', { timeZone: timezone, hour: '2-digit', minute: '2-digit', second: '2-digit' });
+					document.getElementById(elementId).textContent = timeString;
+				}
+			}
+
+			setInterval(updateTimes, 1000);
+			updateTimes(); // Call once to display immediately
+		</script>
+
+	</div>
+</body>
+
+</html>
