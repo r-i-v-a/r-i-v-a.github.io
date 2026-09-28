@@ -83,9 +83,9 @@ button:hover {
 }
 
 #picture1 {
-	background-image: url("f/evening_on_the_chikugo_river_yoshida_hiroshi.jpg");
+	background-image: url("f/children_playing_view_of_mt_fuji_takeuchi_seiho.jpg");
 	background-size: cover;
-	background-position: center;
+	background-position: right;
 	width: 750px;
 	height: 750px;
 	max-width: 100%;
