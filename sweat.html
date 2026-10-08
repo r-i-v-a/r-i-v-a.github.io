@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Sweat</title>
+	<link rel="stylesheet" href="style1.css" />
+	<meta charset="UTF-8">
+</head>
+
+<body>
+	<div class="container">
+
+		<div class="row">
+			<p id="text">warm-up</p>
+		</div>
+
+		<div class="row">
+			<p><button onclick="nextRandomExercise()">next</button></p>
+		</div>
+
+		<script>
+			const textElement = document.getElementById('text');
+
+			const exerciseList = [
+				"[weight] arm curl",
+				"[weight] bear plank row",
+				"[weight] forward press",
+				"[weight] hundred",
+				"[weight] lunge",
+				"[weight] overhead press",
+				"[weight] releve",
+				"[weight] Romanian deadlift",
+				"[weight] single-arm row",
+				"[weight] single-leg bend",
+				"alternate knees to side",
+				"back arm wrap",
+				"back core hold",
+				"back twist",
+				"bicycle crunch",
+				"both-legs hopping",
+				"butterfly stretch",
+				"cat / cow",
+				"clamshell",
+				"diagonal arm and leg reach",
+				"downward-facing dog",
+				"floor barre developpe",
+				"front arm wrap",
+				"front core hold",
+				"front leg stretch",
+				"front plank",
+				"front split",
+				"hundred",
+				"mermaid side stretch",
+				"modified side plank",
+				"pigeon pose",
+				"plie first",
+				"plie second",
+				"push-up",
+				"quad stretch",
+				"rehabilitation breathing",
+				"rehabilitation leg extension",
+				"rehabilitation mini bridge",
+				"rehabilitation mini hundred",
+				"side leg stretch",
+				"side lunge shift",
+				"side plank",
+				"side split",
+				"side-angle pose",
+				"single-leg hopping",
+				"single-leg sit to stand",
+				"small arm circle",
+				"small leg circle",
+				"standing developpe",
+				"sun salutation",
+				"tendu",
+				"toe lower and tap",
+				"toe point and flex",
+				"toe touch",
+				"turnout rotation",
+				"warrior I",
+				"warrior II",
+				"wheel / bridge",
+			];
+
+			let text = "warm-up";
+
+			function nextRandomExercise() {
+				text = exerciseList.at(Math.floor(Math.random() * exerciseList.length));
+				updateTextElement();
+			}
+
+			function updateTextElement() {
+				textElement.textContent = text;
+			}
+		</script>
+
+	</div>
+</body>
+
+</html>

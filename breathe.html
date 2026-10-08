@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Breathe</title>
+	<link rel="stylesheet" href="style1.css" />
+	<meta charset="UTF-8">
+</head>
+
+<body>
+	<div class="container">
+
+		<div class="row">
+			<p id="breatheInText">breathe in</p>
+		</div>
+
+		<div class="row">
+			<div class="centeredContainer">
+				<div id="breatheAnimation"></div>
+			</div>
+		</div>
+
+		<div class="row">
+			<p id="breatheOutText">breathe out</p>
+		</div>
+
+		<script>
+			const breatheInTextElement = document.getElementById('breatheInText');
+			const breatheOutTextElement = document.getElementById('breatheOutText');
+			const breatheAnimationElement = document.getElementById('breatheAnimation');
+
+			const lengthMs = 7000;
+
+			function breatheIn() {
+				breatheInTextElement.style.opacity = 1;
+				breatheOutTextElement.style.opacity = 0;
+				animateBreathe(1, 100); // Animate from 1% to 100%
+			}
+
+			function breatheOut() {
+				breatheInTextElement.style.opacity = 0;
+				breatheOutTextElement.style.opacity = 1;
+				animateBreathe(100, 1); // Animate from 100% to 1%
+			}
+
+			// Helper function for animation
+			function animateBreathe(startPercent, endPercent) {
+				breatheAnimationElement.style.width = `${startPercent}%`;
+				breatheAnimationElement.style.height = `${startPercent}%`;
+				// Force reflow to ensure the transition starts from the new size
+				void breatheAnimationElement.offsetWidth;
+				breatheAnimationElement.style.width = `${endPercent}%`;
+				breatheAnimationElement.style.height = `${endPercent}%`;
+			}
+
+			// Helper function for waiting a specified time
+			function sleep(ms) {
+				return new Promise(resolve => setTimeout(resolve, ms));
+			}
+
+			async function breatheLoop() {
+				while (true) {
+					breatheIn();
+					await sleep(lengthMs); // Pause for animation
+					breatheOut();
+					await sleep(lengthMs); // Pause for animation
+				}
+			}
+
+			// Start the loop
+			breatheLoop();
+		</script>
+
+	</div>
+</body>
+
+</html>
